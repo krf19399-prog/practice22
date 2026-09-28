@@ -39,7 +39,7 @@ def build_ticket(title, priority, is_vip=False):
         "priority": priority,
         "is_vip": is_vip,
         "sla_hours": calculate_sla(priority, is_vip),
-        "status": "new",
+        "status": "open",
     }
  
  
