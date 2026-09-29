@@ -1,4 +1,4 @@
-import os
+
 SLA_HOURS = {
     "low": 72,
     "medium": 24,
